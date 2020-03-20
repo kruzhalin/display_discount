@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+     <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <plugin name="kruzhalin_display_discount_order_grid"
+                type="Kruzhalin\DisplayDiscount\Plugin\AddFieldsToOrdersGrid"
+                sortOrder="10" disabled="false"/>
+    </type>
+</config>
