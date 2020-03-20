@@ -17,3 +17,7 @@ composer require kruzhalin/display_discount:dev-master
 
 
 As a test task we would like you to add coupon_code and discount amount to admin's sales_order_grid. Magento 2.3
+
+### Screenshot
+
+![Extended Orders Grid](https://raw.githubusercontent.com/kruzhalin/display_discount/master/Screenshot.png)
